@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Formulário Login</title>
-<link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    
-    <form action="#">
-        <img src="styles/img/bbylogo.jpg.png" class="elemento-sozinho"/>
-<input type="text" placeholder="Insira Login" class="elemento-sozinho"/>
-<input type="password" placeholder="Insira Senha" class="elemento-sozinho">
-<button class="elemento-sozinho">Entrar</button>
-     </form>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário Login</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
 
-</body>
-</html>
+        <form action="#">
+            <img src="styles/img/bbylogo.jpg.png" class="elemento-sozinho"/>
+            <label class="text1" for="log">Login</label><br>
+            <input
+                id="log"
+                text="text"
+                placeholder="Insira Login"
+                class="elemento-sozinho"/>
+            <label class="texto" for="Senha">Senha</label>
+            <input type="password" placeholder="Insira Senha" class="elemento-sozinho">
+            <img
+                class="img"
+                src="styles/img/user.jpg.png"
+                alt="Usuário"
+                style="width:100px;height:100px;margin-left:100px;">
+
+            <h5>
+                <p class="texto">Vincule sua conta</p>
+                <h5>
+                    <input type="radio" id="g" name="contas" value="gg" class="elemento-sozinho">
+                    <label class="texto" for="g">Google</label><br>
+                    <input type="radio" id="f" name="contas" value="ff" class="elemento-sozinho">
+                    <label class="texto" for="f">Facebook</label><br>
+
+                    <h5>
+                        <p class="texto">Servidores</p>
+                        <label>
+                            <input class="elemento-sozinho" type="checkbox" id="na" name="na" value="na">
+                            <label class="texto" for="na">
+                                América do Norte
+                            </label><br>
+                            <input class="elemento-sozinho" type="checkbox" id="sa" name="sa" value="sa">
+                            <label class="texto" for="sa">
+                                América do Sul
+                            </label><br>
+                            <input class="elemento-sozinho" type="checkbox" id="eu" name="eu" value="eu">
+                            <label class="texto" for="eu">
+                                Europa
+                            </label>
+                            <input class="elemento-sozinho" type="checkbox" id="jp" name="jp" value="jp">
+                            <label class="texto" for="jp">
+                                Ásia
+                            </label>
+                            <input class="elemento-sozinho" type="checkbox" id="oc" name="oc" value="oc">
+                            <label class="texto" for="oc">
+                                Oceania
+                            </label>
+                            <button class="elemento-sozinho">Entrar</button>
+                        </form>
+
+                    </body>
+                </html>
